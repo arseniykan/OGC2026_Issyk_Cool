@@ -1,0 +1,29 @@
+Third-party and competition-provided material in this repository
+================================================================
+
+The MIT license in LICENSE covers the work of Team Issyk Cool only. It does
+NOT cover the following, which are redistributed here for reproducibility and
+remain the property of their respective owners:
+
+1. `_ogc/official_checker.py`
+   Byte-identical to `utils.py` from the official OGC 2026 competition
+   package, distributed by the Optimization Grand Challenge 2026 Organizing
+   Committee. It is the organizers' feasibility checker and scorer. It is
+   included unmodified because the solver calls it as an independent
+   verification oracle before emitting a solution, and because any
+   reproduction of the reported scores has to use the same scorer. No
+   authorship of this file is claimed.
+
+2. `data/finals/*.json` and `data/preliminary/*.json`
+   The competition's evaluation instances, published by the Organizing
+   Committee after the respective rounds closed. Redistributed unmodified so
+   that the results reported in docs/RESULTS.md can be reproduced. No
+   authorship or ownership of this data is claimed.
+
+3. `docs/problem_statement.md`
+   A restatement of the official problem specification, written by the team
+   from the Organizing Committee's problem statement PDF. The underlying
+   problem definition is the organizers'.
+
+Competition: Optimization Grand Challenge 2026 — "The Grand Shipyard Puzzle:
+Pack the Block, Beat the Clock". https://optichallenge.com

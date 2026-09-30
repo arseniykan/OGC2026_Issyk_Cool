@@ -1,0 +1,12 @@
+name: ogc2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.2.*
+  - numba=0.61.*
+  - shapely>=2.1
+  - pip
+  - pip:
+    - ortools==9.15.6755
+    # - gurobipy==13.0.2   # optional, needs a license

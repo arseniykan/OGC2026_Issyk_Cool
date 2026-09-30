@@ -1,0 +1,10 @@
+numpy>=1.26
+numba>=0.61
+shapely>=2.1
+
+# Optional: the CP-SAT bay/day guides. Without ortools the solver still runs,
+# it just loses guide-based target biasing.
+ortools>=9.15
+
+# Optional: the global MILP relaxation guide. Needs a Gurobi license.
+# gurobipy>=13.0

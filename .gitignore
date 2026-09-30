@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# numba writes compiled kernels next to the sources
+*.nbc
+*.nbi
+
+# solver scratch
+gurobi.log
+*.ilp
+*.lp.gz
+
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
